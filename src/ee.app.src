@@ -1,0 +1,12 @@
+{application, ee,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ee_app, []}},
+  {env, []}
+ ]}.
